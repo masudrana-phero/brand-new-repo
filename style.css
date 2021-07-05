@@ -1,3 +1,7 @@
+/* ================
+COMMON CSS
+================= */
+
 body{
     font-family: 'Poppins', sans-serif;
     background-image: url(img/top-banner.png);
@@ -6,15 +10,74 @@ body{
     padding: 0;
 }
 .container{
-    width: 100%;
-    max-width: 960px;
+    width: 80%;
     margin: 0 auto;
 }
 
+/* ================
+ABOUT ME CSS
+================= */
+#about_me{}
+.inner_about_me{}
+.description_area{
+    width: 50%;
+    float: left;
+}
+.description_area h1{
+    font-size: 46px;
+}
+.description_area span{
+    color: orange;
+}
+.description_area a{
+    display: block;
+    text-decoration: none;
+    width: 100px;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
 
+.my_photo{
+    width: 50%;
+    float: right;
+}
+
+.my_photo img{
+    width: 100%;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 .about_me{
-   width: 100%;
-   max-width: 450px;
+   width: 50%;
    float: left; 
 }
 .about_me h1{
@@ -23,8 +86,7 @@ body{
 .about_me span{
     color: orange;
 }
-.about_me h3{}
-.about_me p{}
+
 .about_me a{
     display: block;
     text-decoration: none;
@@ -38,11 +100,10 @@ body{
 }
 
 .my_image{
-    width: 100%;
-    max-width: 450px;
+    width: 50%;
     float: right;
 }
 .my_image img{
     width: 400px;
     height: auto;
-}
+} */
