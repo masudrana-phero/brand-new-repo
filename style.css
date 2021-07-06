@@ -129,10 +129,13 @@ dream big css ends here
 	box-shadow: 10px 10px 30px gray;
 	padding-left: 20px;
 	height: 400px;
-    border-left: 5px solid green;
+    border-left: 5px solid;
+    border-image: linear-gradient(red, blue);
+    border-image-slice: 1;
 }
 .full_stack h2{
     font-size: 37px;
+    
 }
 .full_stack h3{
     color: orange;
@@ -145,7 +148,9 @@ dream big css ends here
 	box-shadow: 10px 10px 30px gray;
 	padding-left: 20px;
 	height: 400px;
-    border-left: 5px solid orangered;
+    border-left: 5px solid;
+    border-image: linear-gradient( blue, cyan);
+    border-image-slice: 1;
 }
 
 .baby_web h3{
