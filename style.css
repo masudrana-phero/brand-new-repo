@@ -1,6 +1,6 @@
-/* ================
-COMMON CSS
-================= */
+/* =====================
+common css starts here
+========================*/
 
 body{
     font-family: 'Poppins', sans-serif;
@@ -14,9 +14,16 @@ body{
     margin: 0 auto;
 }
 
-/* ================
-ABOUT ME CSS
-================= */
+/* =====================
+common css ends here
+========================*/
+
+
+
+
+/* =====================
+about me css starts here
+======================= */
 #about_me{
     margin-bottom: 100px;
 }
@@ -54,12 +61,14 @@ ABOUT ME CSS
     width: 100%;
     padding-top: 10px;
 }
+/* =====================
+about me css ends here
+======================= */
 
 
-
-/*=============
- DREAM BIG CSS
-============= */
+/*======================
+dream big css starts here
+======================== */
 #dream_big{
     width: 100%;
     background-image: url(img/dream-bg.png);
@@ -90,13 +99,15 @@ ABOUT ME CSS
         color: white;
         font-weight: 700;
 }
+/*======================
+dream big css ends here
+======================== */
 
 
 
-
-/*===============
- experiences_area css
-================ */
+/*===============================
+ experiences_area css starts here
+================================*/
 #experiences_area{
     width: 100%;
     background-image: url(img/exp-bg.png);
@@ -118,6 +129,7 @@ ABOUT ME CSS
 	box-shadow: 10px 10px 30px gray;
 	padding-left: 20px;
 	height: 400px;
+    border-left: 5px solid green;
 }
 .full_stack h2{
     font-size: 37px;
@@ -133,11 +145,21 @@ ABOUT ME CSS
 	box-shadow: 10px 10px 30px gray;
 	padding-left: 20px;
 	height: 400px;
+    border-left: 5px solid orangered;
 }
 
 .baby_web h3{
     color: orange;
 }
+
+/*===============================
+ experiences_area css ends here
+================================*/
+
+
+/* =====================
+footer css starts here
+======================== */
 
 footer{
     text-align: center;
@@ -146,7 +168,9 @@ footer{
 }
 
 
-
+/* =====================
+footer css ends here
+======================== */
 
 
 
