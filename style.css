@@ -17,8 +17,12 @@ body{
 /* ================
 ABOUT ME CSS
 ================= */
-#about_me{}
-.inner_about_me{}
+#about_me{
+    margin-bottom: 100px;
+}
+.inner_about_me{
+    overflow: hidden;
+}
 .description_area{
     width: 50%;
     float: left;
@@ -53,57 +57,99 @@ ABOUT ME CSS
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-.about_me{
-   width: 50%;
-   float: left; 
+/*=============
+ DREAM BIG CSS
+============= */
+#dream_big{
+    width: 100%;
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 100px;
 }
-.about_me h1{
+.inner_dream_big{
+    overflow: hidden;
+}
+.my_photo1{
+    width: 45%;
+    float: left;
+    margin-right: 50px;
+}
+.about_dream{
+    width: 45%;
+    float: right;
+}
+.about_dream h2{
     font-size: 46px;
 }
-.about_me span{
+.about_dreamn, .anchor-button{
+        text-decoration: none;
+        background: linear-gradient(45deg, lightsalmon, tomato);
+        padding: 10px 40px;
+        border-radius: 5px;
+        color: white;
+        font-weight: 700;
+}
+
+
+
+
+/*===============
+ experiences_area css
+================ */
+#experiences_area{
+    width: 100%;
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: 250px;
+}
+.inner_experience_area{
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+.inner_experience_area h1{
+    font-size: 46px;
+}
+.full_stack{
+    width: 38%;
+	margin-left: 5%;
+	margin-right: 5%;
+	float: left;
+	box-shadow: 10px 10px 30px gray;
+	padding-left: 20px;
+	height: 400px;
+}
+.full_stack h2{
+    font-size: 37px;
+}
+.full_stack h3{
+    color: orange;
+}
+.baby_web {
+	width: 38%;
+	margin-left: 5%;
+	margin-right: 5%;
+	float: right;
+	box-shadow: 10px 10px 30px gray;
+	padding-left: 20px;
+	height: 400px;
+}
+
+.baby_web h3{
     color: orange;
 }
 
-.about_me a{
-    display: block;
-    text-decoration: none;
-    width: 100px;
-    background-image: linear-gradient(orange, tomato);
-    color: white;
-    padding: 10px 10px;
+footer{
     text-align: center;
+    color: #666;
     font-weight: bold;
-    border-radius: 5px;
 }
 
-.my_image{
-    width: 50%;
-    float: right;
-}
-.my_image img{
-    width: 400px;
-    height: auto;
-} */
+
+
+
+
+
+
+
+
